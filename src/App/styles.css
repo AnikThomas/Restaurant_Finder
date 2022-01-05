@@ -3,7 +3,6 @@
     margin:0;
 }
 
-
 .flex-around{
     display: flex;
     justify-content: space-around;
@@ -11,23 +10,32 @@
 .flex-between{
     display: flex;
     justify-content: space-between;
+    
 }
 .restaurant{
     display:grid;
     grid-template-columns: 400px auto;
     grid-gap: 1cm;
     padding: 1cm;
+    background-color: rgba(255, 255, 255, 0.08);
+    width:100%;
+    
 
+}
+
+.resto{
+    padding:20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(0,128,128, 0.4);
 }
 
 h1 h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
-
 .Home{
-    background-image: url('restoImg/outdoor-img.jpg');
+    background-image: url('./restoImg/outdoor-img.jpg');
     height:100vh;
     width:100vw;
     background-repeat: no-repeat;
@@ -59,14 +67,14 @@ h1 h4{
 }
 
 h1{
-    font-size: 1.1cm;
+    font-size: 1.8cm;
     font-family: 'Times New Roman', Times, serif;
+    
     
 }
 
 .Restaurants{
-  
-    background-image: url('restoImg/tasty-backgroundimg.jpg'); 
+    background-image: url('./restoImg/rest01.jpg'); 
     height:100%;
     width:100vw;
     background-repeat: no-repeat;
@@ -74,11 +82,11 @@ h1{
     background-attachment: fixed;
     color: white;
 }
+
 a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
-
 
 .buttonfinder{
     width:100%;
@@ -86,12 +94,10 @@ a {
     text-align: center;
     border-radius: 1cm;
     background-color: #00a680;
-    
-
 }
 
 .About{
-    background-image: url('restoImg/tasty-backgroundimg.jpg');
+    background-image: url('./restoImg/rest0-unsplash.jpg');
     min-height: 10;
     height:100%;
     width:100vw;
@@ -103,16 +109,16 @@ a {
     
 }
 .About .banner{
-    width:50%;
-    margin-left: 1cm;
+    width:100%;
+    margin: auto;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     
 }
-.aboutMiddle{
-    background-color: rgba(255, 255, 255, 0.1);
+/* .aboutMiddle{
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 1cm;
     border-radius: 0.5cm;
     margin-left: 1cm;
@@ -121,4 +127,4 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:whitesmoke;
     
-}
+} */

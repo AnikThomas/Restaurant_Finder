@@ -12,7 +12,7 @@ function Restaurant(props) {
     return (
         <div className='restaurant'>
             {restImg}
-            <div>
+            <div className="resto">
                 <h1><a href={url}>{name}</a></h1>
                 <h4>{cuisines}</h4>
                 <h4><a href={menu_url}>Menu</a></h4>
