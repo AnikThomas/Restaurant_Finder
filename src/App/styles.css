@@ -25,8 +25,8 @@
 
 .resto{
     padding:20px;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 20px; 
+    font-weight: 800; 
     background-color: rgba(0,128,128, 0.4);
 }
 
@@ -67,7 +67,7 @@ h1 h4{
 }
 
 h1{
-    font-size: 1.8cm;
+    font-size: 1.2cm;
     font-family: 'Times New Roman', Times, serif;
     
     
