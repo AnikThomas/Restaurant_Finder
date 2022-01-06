@@ -14,19 +14,17 @@
 }
 .restaurant{
     display:grid;
-    grid-template-columns: 400px auto;
+    grid-template-columns: 150px auto;
     grid-gap: 1cm;
     padding: 1cm;
     background-color: rgba(255, 255, 255, 0.08);
     width:100%;
-    
-
 }
 
 .resto{
     padding:20px;
-    font-size: 20px; 
-    font-weight: 800; 
+    font-size: 15px; 
+    /* font-weight: 500;  */
     background-color: rgba(0,128,128, 0.4);
 }
 
@@ -69,7 +67,6 @@ h1 h4{
 h1{
     font-size: 1.2cm;
     font-family: 'Times New Roman', Times, serif;
-    
     
 }
 
@@ -117,14 +114,4 @@ a {
     justify-content: center;
     
 }
-/* .aboutMiddle{
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 1cm;
-    border-radius: 0.5cm;
-    margin-left: 1cm;
-    width:100%;
-    line-height: 0.8cm;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:whitesmoke;
-    
-} */
+
